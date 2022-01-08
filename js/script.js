@@ -1,20 +1,56 @@
-var result = prompt(); 
 
-if(result>=1 && result<=32){
-    
-    document.getElementById("r1").innerHTML="F";
-} else if (result>=33 && result<=40){
-        document.getElementById("r2").innerHTML="D";
-} else if (result>=41 && result<=50){
-        document.getElementById("r2").innerHTML="C";
-} else if (result>=51 && result<=60){
-        document.getElementById("r2").innerHTML="B";
-} else if (result>=61 && result<=70){
-        document.getElementById("r2").innerHTML="B";
-} else if (result>=71 && result<=79){
-        document.getElementById("r2").innerHTML="A";
-} else {
-        document.getElementById("r3").innerHTML="A+";
+//This is by switch
+console.log("01. When Mr. jon was started coding? \na.2018 \nb.2019 \nc.2022");
+
+jony = prompt();
+
+var text;
+
+switch (jony) {
+        case "a" : text = "2018";
+        break;
+        case "b" : text = "2019";
+        break;
+        case "a" : text = "2020";
+        break;
+        default : text="None";
+        break; 
 };
 
+console.log(text);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// This is by if else
+/*console.log("01. When Mr. jon was started coding \na.2018 \nb.2019 \nc.2022");
+
+jony = prompt();
+
+var text;
+
+if (jony == "a"){
+        text = "Your answer is 2018" ;
+} else if (jony == "b") {
+        text = "Your answer is 2019" ;
+} else if (jony == "c") {
+        text = "Your answer is 2022" ;
+} else{
+        text = "No answered";
+}
+
+console.log(text); */
